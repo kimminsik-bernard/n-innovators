@@ -1,0 +1,75 @@
+/*--------------------------------------------------------------
+ Project   : Total WordPress Theme
+ Purpose   : Theme admin panel
+ Author    : WPExplorer
+ Theme URI : http://www.wpexplorer.com
+--------------------------------------------------------------*/
+.wrap.wpex-theme-panel .notice { display: none !important }
+.wrap.wpex-theme-panel h1 { margin-bottom: 10px; }
+.wpex-theme-panel .nav-tab-wrapper { margin-bottom: 20px; }
+.wpex-clr:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; zoom: 1; }
+.wpex-filterby-hide { display: none; }
+.wpex-sort-hide { display: none; }
+
+.wpex-theme-panel .nav-tab-wrapper .fa { margin-right: 10px; }
+
+/* Right */
+.wpex-theme-panel .manage-right { clear: both; margin: 0; padding: 0; float: right; width: 35%; }
+.wpex-theme-panel .manage-right { font-size: 12px; font-weight: bold; color: #bbb; text-transform: uppercase; letter-spacing: 1px; }
+.wpex-theme-panel .manage-right input[type="text"] { width: 100%; padding: 7px; font-weight: 600; }
+
+.wpex-filter-active button { font-weight: 400; text-transform: none; letter-spacing: normal; }
+
+.wpex-theme-panel-sort a { font-weight: 600; text-decoration: none; text-transform: none; letter-spacing: 0; }
+.wpex-theme-panel-sort a.wpex-active-category { padding: 1px 5px; border-radius: 2px; margin-left: -5px; background: #0D72B2; color: #fff; }
+
+/* Left */
+.wpex-theme-panel .manage-left { float: left; margin: 0; padding: 0; width: 63%; }
+.wpex-theme-panel .manage-left table { margin-top: 15px; }
+.wpex-theme-panel .manage-left td,
+.wpex-theme-panel .manage-left th { box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1); }
+.wpex-theme-panel .manage-left td { padding: 10px 10px 8px 10px; line-height: 25px; }
+.wpex-theme-panel .manage-left td .dashicons { margin-right: 10px; }
+.wpex-module-description { line-height: 1.5; padding-left: 30px; }
+.wpex-module.wpex-hidden { display: none !important; }
+
+tr.wpex-active { }
+tr.wpex-disabled { opacity: 0.5; }
+tr.wpex-disabled:hover { opacity: 0.65; }
+
+.wpex-theme-panel a:focus { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }
+
+.admin-color-fresh .wpex-module a { color: #1a8dba; }
+.admin-color-midnight .wpex-module a { color: #dd382d; }
+.admin-color-light .wpex-module a { color: #777; }
+.admin-color-blue .wpex-module a { color: #096484; }
+.admin-color-coffee .wpex-module a { color: #59524c; }
+.admin-color-ectoplasm .wpex-module a { color: #523f6d; }
+.admin-color-ocean .wpex-module a { color: #6c976f; }
+.admin-color-sunrise .wpex-module a { color: #dd823b; }
+
+.admin-color-fresh .wpex-module:hover,
+.admin-color-fresh .wpex-module:focus { background: #f8fcfe; }
+
+.admin-color-coffee .wpex-module:hover,
+.admin-color-coffee .wpex-module:focus { background: #fcfcfb; }
+
+.admin-color-ectoplasm .wpex-module:hover,
+.admin-color-ectoplasm .wpex-module:focus { background: #fff; }
+
+.admin-color-ocean .wpex-module:hover,
+.admin-color-ocean .wpex-module:focus { background: #fbfcfc; }
+
+.admin-color-sunrise .wpex-module:hover,
+.admin-color-sunrise .wpex-module:focus { background: #fefdfc; }
+
+.wpex-purchase-code-heading > span { display: inline-block; position: relative; top: -2px; margin-left: 5px; }
+.wpex-purchase-code-heading .dashicons-no { color: red }
+input.wpex-invalid { border-color: red !important }
+.wpex-purchase-code-heading .dashicons-yes { color: #8BC53F }
+input.wpex-valid { border-color: #8BC53F !important }
+
+@media only screen and (max-width: 800px) { 
+	.wpex-theme-panel .manage-right,
+	.wpex-theme-panel .manage-left { width: 100%; float: none; }
+}
